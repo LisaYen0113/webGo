@@ -1,0 +1,42 @@
+#footer-saran h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#footer-saran {
+    position: relative;
+}
+#footer-saran .region {
+    border-left: 1px solid #CCC;
+    padding: 0 20px;
+    min-height: 195px;
+    text-align: left;
+}
+
+#footer-saran .region {
+    border-left: 1px solid #CCC;
+}
+
+#footer-saran .region-footer-first {
+    border: none;
+}
+
+#footer-sarans h2 {
+    text-align: center;
+}
+
+#footer-saran .views-row {
+    border-bottom: 1px dashed #BBB;
+    height: 60px;
+    position: relative;
+}
+
+#footer-saran .news-date {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-style: italic;
+    color: #999;
+    font-size: 9px;
+    font-family: arial;
+}
