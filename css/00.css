@@ -949,21 +949,21 @@ tr td:last-child {
     margin: 0 0 10px;
 }
 
-.filter-wrapper .form-item,
+/* .filter-wrapper .form-item,
 div.teaser-checkbox .form-item,
 .form-item .form-item {
     padding: 5px 0;
     margin: 0;
     border: 0;
-}
+} */
 
 .form-type-checkbox {
     padding: 0;
 }
 
-.text-format-wrapper .form-item {
+/* .text-format-wrapper .form-item {
     padding-bottom: 0;
-}
+} */
 
 .form-item label {
     margin: 0;
@@ -988,12 +988,12 @@ div.teaser-checkbox .form-item,
     color: #777;
 }
 
-.filter-wrapper {
+/* .filter-wrapper {
     border-top: 0;
     padding: 10px 2px;
-}
+} */
 
-.filter-wrapper .fieldset-wrapper {
+/* .filter-wrapper .fieldset-wrapper {
     padding: 0 6px;
 }
 
@@ -1002,7 +1002,7 @@ div.teaser-checkbox .form-item,
 .filter-wrapper .filter-help {
     font-size: 0.923em;
     padding: 2px 0 0 0;
-}
+} */
 
 ul.tips,
 div.description,
@@ -1173,10 +1173,10 @@ ul.inline li {
     padding: 0;
 }
 
-.tabs-wrapper {
+/* .tabs-wrapper {
     border-bottom: 1px solid #b7b7b7;
     margin: 0 0 5px 0;
-}
+} */
 
 ul.primary {
     border: none;
@@ -1344,10 +1344,10 @@ h3.comment-title a {
     margin-left: 1em;
 }
 
-.form-textarea-wrapper textarea {
+/* .form-textarea-wrapper textarea {
     border-radius: 3px;
     border: 1px solid #acacac;
-}
+} */
 
 .comment .submitted {
     display: inline;
