@@ -14,6 +14,14 @@
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
  }
+
+ .parent1 {
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;    
+  /* 垂直置中 */
+  align-items: center;        
+}
  .parent {
   
   /* 水平置中 */
