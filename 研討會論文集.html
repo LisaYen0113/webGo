@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>首頁</title>
+    <title>研討會|中華民國資訊管理學會</title>
     <link rel="icon" type="image/x-icon" href="https://www.csim.org.tw/sites/default/files/CSIM.gif" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -17,6 +17,10 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/00.css" rel="stylesheet" />
+    <!-- CDN方式 -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
 </head>
 
 <body>
@@ -39,6 +43,7 @@
                             關於協會
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="about.html">關於協會</a></li>
                             <li><a class="dropdown-item" href="關於協會/學會簡介.html">學會簡介</a></li>
                             <li><a class="dropdown-item" href="#">組織章程</a></li>
                             <li><a class="dropdown-item" href="#">學會組織</a></li>
@@ -63,7 +68,7 @@
                     </div>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index00.html">活動花絮</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">聯絡我們</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="英文.html">English</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="English.html">English</a></li>
 
                 </ul>
             </div>
@@ -81,7 +86,7 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="site-heading">
                         <h1>
-                            <font color="white">最新消息</font>
+                            <font color="white">研討會</font>
                         </h1>
                     </div>
                 </div>
@@ -89,72 +94,33 @@
         </div>
     </header>
     <!-- Main Content-->
+    <table id="table_id" class="display">
+        <thead>
+            <tr>
+                <th>研討會名稱</th>
+                <th>主辦單位</th>
+                <th>年份</th>
+                <th>論文集</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <a href="">第十九屆國際資訊管理學術研討會</a></td>
+                <td>中華民國資訊管理學會, 暨南國際大學資管系</td>
+                <td>2008</td>
+                <td><a href="" target="_blank">檢視</a></td>
+            </tr>
+            <tr>
+                <td> <a href="">第十五屆國際資訊管理學術研討會</a></td>
+                <td>中華民國資訊管理學會</td>
+                <td>2004</td>
+                <td><a href="" target="_blank">檢視</a></td>
+            </tr>
 
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-md-10 col-lg-8 col-xl-7">
-                <!-- Post preview-->
-                <div class="post-preview">
-                    <a href="latestNews/recruitingTalents1.html">
-                        <h4>【徵才】靜宜大學資料科學暨大數據分析與應用學系誠徵教師 (延長申請截止日至 2024.4.12)</h4>
-                        <p>靜宜大學 資料科學暨大數據分析與應用學系(簡稱: 資科系) 目前正在誠徵教師, 希望之專長領域為: 人工智慧、資料科學(大數據)相關領域。
-                            詳細情形請見以下連結或附檔。 </p>
-                    </a>
-                    <!-- <p class="post-meta">
-                        Posted by
-                        <a href="#!">Start Bootstrap</a>
-                        on September 24, 2023
-                    </p> -->
-                </div>
-                <!-- Divider-->
-                <hr class="my-4" />
-                <!-- Post preview-->
-                <div class="post-preview">
-                    <a href="latestNews/recruitingTalents0.html">
-                        <h4>【徵才】靜宜大學資料科學暨大數據分析與應用學系誠徵教師收件截止日期為 收件4月1日止</h4>
-                        <p>靜宜大學 資料科學暨大數據分析與應用學系(簡稱: 資科系) 目前正在誠徵教師, 希望之專長領域為: 人工智慧、資料科學(大數據)相關領域。 詳細情形請見以下連結或附檔。
-                        </p>
-                    </a>
-                </div>
-                <!-- Divider-->
-                <hr class="my-4" />
-                <!-- Post preview-->
-                <div class="post-preview">
-                    <a href="latestNews/recruitingTalents1.html">
-                        <h4>【論文徵稿】第35屆國際資訊管理學術研討會(ICIM2024)</h4>
-                        <p>相關訊息請參閱研討會網站: https://sites.google.com/view/icim-2024 </p>
-                    </a>
-                </div>
-                <!-- Divider-->
-                <hr class="my-4" />
-                <!-- Post preview-->
-                <div class="post-preview">
-                    <a href="latestNews/00.html">
-                        <h4>【競賽】全國最大資訊服務相關領域學生專題創新競賽將於11月2日隆重盛大舉行(ICIM2024)</h4>
-                        <p>各位主任、先進們好：一年一度由中華民國資訊管理學會共同主辦之全國最大資訊服務相關領域學生專題創新競賽將於11月2日隆重盛大舉行。</p>
-                    </a>
-                </div>
-                <!-- Divider-->
-                <hr class="my-4" />
-                <!-- Post preview-->
-                <div class="post-preview">
-                    <a href="latestNews/01.html">
-                        <h4>2024第一屆傳善論文獎
-                        </h4>
-                        <p>2024年陳永泰公益信託「傳善論文獎」(7/1-7/14止) 一、
-                            申請資格（一）科系：國內大專院校博士、碩士生（含在職生），不限系所。（二）主題：社福發展趨勢、社福組織內部管理、對外溝通等面向。鼓勵以各自領域專業，如：社會福利、公共行政、政治法律、組織管理、人力資源、財務會計、數位資訊、大眾傳播、媒體新聞、公關行銷、服務設計、創新科技、社會影響力等，...
-                        </p>
-                    </a>
-                </div>
-                <!-- Divider-->
-                <hr class="my-4" />
-                <div class="more-link">
-                    <a href="latestNews.html">
-                        ...更多</a>
-                </div>
-            </div>
-        </div>
-    </div>
+        </tbody>
+    </table>
+    <br />
+    <br />
 
     <!-- Footer-->
     <div id="footer-saran">
@@ -318,19 +284,6 @@
             </div>
         </div>
     </div>
-    <table class="parent ">
-        <tbody>
-            <tr>
-                <td>　<a href="https://eclab.nkust.edu.tw/submitjim"><img alt="資訊管理學報"
-                            src="https://www.csim.org.tw/sites/default/files/zi_guan_xue_bao_tu_dang_.jpg" /></a>　</td>
-                <td>　<a href="https://sites.google.com/view/icim-2024"><img alt="第35屆國際資訊管理學術研討會(ICIM2024)"
-                            src="https://www.csim.org.tw/sites/default/files/1710473613383.jpg" /></a>　</td>
-
-                <td>　<a href="https://www.csim.org.tw/sites/default/files/1713108521978.jpg"><img typeof="foaf:Image"
-                            src="https://www.csim.org.tw/sites/default/files/1713108521978.jpg" alt=""></a>　</td>
-            </tr>
-        </tbody>
-    </table>
 
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
