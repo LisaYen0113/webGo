@@ -15,7 +15,7 @@
   grid-template-columns: 1fr 1fr 1fr;
  }
  .parent {
-  display: flex;
+  
   /* 水平置中 */
   justify-content: center;    
 }
